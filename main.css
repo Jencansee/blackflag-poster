@@ -1,0 +1,116 @@
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background: black;
+}
+
+body p {
+  z-index: 3000;
+  font-weight: bold;
+  color: #CB2831;
+}
+
+.wrapper {
+  position: relative;
+  width: 716px;
+  height: 1008px;
+  margin: 0 auto;
+  margin-top: -8px;
+  background: #DEE2D7;
+  overflow: hidden;
+}
+
+.first, .second, .third, .fourth {
+  position: absolute;
+}
+
+.first {
+  top: -176px;
+  right: -377px;
+}
+
+.second {
+  top: 0;
+  right: -114px;
+}
+
+.third {
+  bottom: -1px;
+  left: -108px;
+}
+
+.fourth {
+  bottom: -176px;
+  left: -376px;
+}
+
+.line {
+  position: absolute;
+  z-index: 1000;
+}
+
+.header-text-wrapper {
+  position: relative;
+}
+
+.header-text-wrapper h1 {
+  font-family: Helvetica, sans-serif;
+  position: absolute;
+  color: #DEE2D7;
+  font-size: 92px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 204px;
+  left: 94px;
+}
+
+.body-text-wrapper {
+  position: relative;
+}
+
+.body-text-wrapper p {
+  white-space: pre;
+  position: absolute;
+  font-size: 25px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  top: 502px;
+  right: 30px;
+}
+
+.location-wrap {
+  position: relative;
+}
+
+.location-wrap p {
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 664px;
+  right: 224px;
+}
+
+.time-wrap {
+  position: relative;
+}
+
+.time-wrap p {
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 626px;
+  right: 172px;
+}
+
+.info {
+  white-space: pre;
+  font-size: 18px;
+  line-height: 26px;
+}
+/*# sourceMappingURL=main.css.map */
